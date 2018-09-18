@@ -1,0 +1,188 @@
+body {
+    background-color: #943156;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: white;
+}
+
+
+p {
+    text-align: center;
+    margin: 5px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    padding-top: 10px;
+}
+
+img {
+    height: 80%;
+    width: 90%;
+}
+
+div {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-top: 1%;
+    padding-top: 10px;
+}
+
+form > input {
+    text-align: center;
+    margin: 2px;
+    font-size: medium;
+    width: 300px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.site {
+    display: grid;
+    grid-template-rows: 80px 40px auto 20px;
+    grid-gap: 1px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+            "A B C D E F";
+    grid-gap: 5px;
+    height: 20px;
+}
+
+.menu_buttonA {
+    grid-area: A;
+    background-color: lightpink;
+    height: 30px;
+}
+
+.menu_buttonB {
+    grid-area: B;
+    background-color: lightpink;
+    height: 30px;
+}
+
+.menu_buttonC {
+    grid-area: C;
+    background-color: lightpink;
+    height: 30px;
+}
+
+.menu_buttonD {
+    grid-area: D;
+    background-color: lightpink;
+    height: 30px;
+}
+
+.menu_buttonE {
+    grid-area: E;
+    background-color: lightpink;
+    height: 30px;
+}
+
+.menu_buttonF {
+    grid-area: F;
+    background-color: lightpink;
+    height: 30px;
+}
+
+.page_nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+            "A B B B C";
+    grid-gap: 1px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.page_nav_prev {
+    grid-area: A;
+    background-color: #d67d9e;
+    height: 30px;
+}
+
+.page_nav_next {
+    grid-area: C;
+    background-color: #d67d9e;
+    height: 30px;
+}
+
+.studio {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.studio_panel {
+    display: inline-block;
+    background: darkslategrey;
+    border: solid black 5px;
+    width: 500px;
+    height: 375px;
+}
+
+.sticker {
+    width: 50px;
+    height: 50px;
+}
+
+.sticker_but {
+    margin: 0px;
+    padding: 0px;
+    width: 10px;
+    height: 10px;
+}
+
+.thumbnails {
+    display: inline-block;
+    background-color: darkslategrey;
+    border: solid black 5px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.gallery {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gallery_form {
+    margin: 0px;
+    padding: 0px;
+}
+
+.gallery_img {
+    display: inline-block;
+    background-color: #941a37;
+    border: solid black 1px;
+    width: 500px;
+    height: 375px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.gallery_button {
+    width: 50px;
+    margin: 0px;
+}
+
+.comment_img {
+    margin-top: 30px;
+    height: 375px;
+    width: 500px;
+}
